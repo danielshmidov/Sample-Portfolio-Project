@@ -17,6 +17,8 @@ $gray-text: #2c2c2c;
 @import "global";
 @import "intro";
 @import "projects";
+@import "contact";
+@import "footer";
 
 @media screen and (max-width: 1000px){
     html{
@@ -72,6 +74,17 @@ $gray-text: #2c2c2c;
             margin: 2rem;
         }
     }
-
+    .travelly,
+    .Photography-website {
+        flex: 1 1 50rem;
+        img{
+            width: 100%;
+        }
+    }
+      form{
+          padding: 0;
+          width: 100%;
+      }
 }
+
 
